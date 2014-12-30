@@ -1,0 +1,94 @@
+
+body {
+	height: 100%;
+	background-color: #333433; 
+	background-size: cover; 
+	padding-top: 20px;
+}
+
+h1 {
+	color: white;
+}
+
+.app-container {
+	width:600px;
+	line-height: 200%;
+	margin: 0 auto;
+	background-color: #7AA3CC;
+	background-image: url('../assets/img/bkg-image2.png');
+	margin: 5;
+	padding-bottom: 10px
+}
+
+.app-container p {
+	margin-bottom: 7px;
+}
+
+#response, #welcome {
+	color: white;
+	font-size: 12px;
+	font-style: bold;
+}
+
+#alert_end, #alert_dup {
+	color: red;
+	margin: 0 auto;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	max-width: 300px;
+	background-color: white;
+	font-size: 12px;
+	font-style: bold;
+}
+
+
+#response_success {
+	margin: 0 auto;
+	color: green;
+	background-color: #CCFFFF;
+	max-width: 250px;
+	font-size: 18px;
+	font-style: bold, underline;
+}
+
+#history {
+	color: black;
+	margin: 0 auto;
+	margin-top: 7px;
+	max-width: 200px;
+	background-color: white;
+	font-size: 12px;
+	font-style: bold;
+}
+
+#history_warm {
+	color: red;
+	font-size: 12px;
+	font-style: bold;
+}
+
+#history_neutral {
+	color: black;
+	font-size: 12px;
+	font-style: bold;
+}
+
+#history_cold {
+	color: blue;
+	font-size: 12px;
+	font-style: bold;
+}
+
+#history_target {
+	color: #009933;
+	font-size: 14px;
+	font-style: bold;
+}
+
+.label.label-success {
+	color: blue;
+}
+
+.testclass::-webkit-input-placeholder {
+    color: red;
+}
