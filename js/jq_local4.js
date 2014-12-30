@@ -95,7 +95,7 @@ jQuery(document).ready(function(){
 					$('.btn-group').remove();
 					$('#history_target').remove();
 					$('#history_target').replaceWith('<span id="history_target">'+answer+', </span>');
-					$('.app-container').css('background-image','url(../guessing_game2/assets/img/bkg-image4.jpg)');
+					$('.app-container').css('background-image','url(https://raw.githubusercontent.com/gskerry/GuessingGame2/gh-pages/assets/img/bkg-image4.jpg)');
 				} else if (current_guess > answer && current_guess - answer < 20) {
 					$('.btn-group').prepend(response_over_warm)
 				} else if (current_guess < answer && answer - current_guess < 20) {
