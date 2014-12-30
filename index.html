@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>GuessDigit | FS Foundations</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+  
+
+<body>
+
+<div class="app-container">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center">
+      
+      <h1>Guess the Number</h1>
+      <p>
+      <input id="guessbox" type="text" size="35" placeholder="Enter a Number 1-100">
+      </p>
+      <p>
+        <div class="btn-group">
+          <button class="btn btn-primary" id="guess">Submit Guess</button>
+          <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+          <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" id="giveup">
+            I give up.
+          </ul> 
+        </div>
+      </p>
+            <p>
+        <span class="label label-success" id="counter"></span>
+        <span class="label label-success" id="remaining">Guesses Remaining</span>
+      </p>
+      <p>
+        <button class="btn btn-success" type="button" id="again">Play Again!</button>
+      </p>
+      <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+      <script src="js/jquery-2.1.3.js"></script>
+      <script src="js/jq_local4.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
